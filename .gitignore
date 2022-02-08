@@ -1,3 +1,13 @@
+# Prepos
+desktop.ini
+prepros.cfg
+prepros.config
+prepros-6.config
+
+
+# Pages
+*.html
+
 # Logs
 logs
 *.log
