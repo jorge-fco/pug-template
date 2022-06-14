@@ -1,4 +1,4 @@
-# PUG Template
+# 🐶 PUG Template
 
 ## Architecture
 - Home
