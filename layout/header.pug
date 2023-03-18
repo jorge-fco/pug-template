@@ -2,7 +2,7 @@
 include ../config/config.pug
 
 <!DOCTYPE html>
-<html class="js-html">
+<html class="js-html" lang="#{site_lang}">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,10 +18,10 @@ include ../config/config.pug
 	// ICONS
 
 	// TITLE
-	<title>#{title}</title>
+	<title>#{site_title} – #{site_subtitle}</title>
 
 	// CSS
-	<link rel="stylesheet" href="#{css}">
+	<link rel="stylesheet" href="#{site_url}/#{css_folder}/#{version_css}">
 </head>
 <body class="js-body">
 

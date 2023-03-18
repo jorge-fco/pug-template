@@ -4,8 +4,8 @@ prepros.cfg
 prepros.config
 prepros-6.config
 
-
 # Pages
+.DS_Store
 *.html
 
 # Logs

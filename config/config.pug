@@ -1,16 +1,57 @@
-- var title = "Website";
-- var site_url = "https://jorge-fco.com/";
-- var description = "A description of the page...";
+// 🔗 URL
+- var localhost = true;
+- var site_title = "Título";
+- var site_subtitle = "Subtítulo";
+- var site_name = "Website";
+- var site_lang = "es";
+
+// 📋 SEO
+- var site_description = "A description of the page...";
 - var share_image = "assets/images/share.jpg";
 
-- var email = "Website";
-- var phone = "Website";
-- var linkedin = "Website";
+// 📦 FILES
+- var css_folder = 'assets/dist/main.min.css';
+- var js_vendors = 'assets/dist/vendors.min.js';
+- var js_app = 'assets/dist/app.min.js';
+- var version_css = '?v=0.01';
+- var version_js = '?v=0.01';
+
+// ✉️ CONTACT
+- var email = "";
+- var phone = "";
+- var schedule_normal = '10:00 A.M. a 8:00 P.M';
+- var schedule_special = '10:00 A.M. a 2:00 P.M';
+- var facebook = "";
+- var instagram = "";
+- var tiktok = "";
+- var youtube = "";
+- var linkedin = "";
+- var twitter = "";
 - var twitter_profile = "@jorgefcomx";
 
+// 📲 WHATSAPP BUSINESS
+- var whatsapp_url = "";
+- var whatsapp_number = "";
+- var whatsapp_message = "";
+
+// 📍ADDRESS
+- var latitude = '20.553318';
+- var longitude = '-102.4992176';
+- var street = 'Porfirio Díaz 316';
+- var colony = '';
+- var postal_code = '47750';
+- var city = 'Atotonilco el Alto';
+- var state = 'Jalisco';
+- var country = 'México';
+- var google_maps_link = '';
+
+// 🚀 DEPLOY
 - var facebook_app_id = "12345";
 - var facebook_pade_id = "12345";
 - var facebook_domain_verification = "12345";
-
 - var google_site_verification = "12345";
-- var css = "assets/dist/main.min.css?v=";
+
+if localhost
+	- var site_url = 'http://localhost:8888/pug-template';
+else
+	- var site_url = '';
