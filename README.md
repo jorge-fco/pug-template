@@ -7,4 +7,5 @@
 
 ## Elements
 - Header
+- Components
 - Footer
