@@ -1,12 +1,29 @@
-# Prepos
+# ==========
+# PREPOS
+# ==========
 desktop.ini
 prepros.cfg
 prepros.config
 prepros-6.config
 
-# Pages
+# ==========
+# PAGES
+# ==========
 .DS_Store
+*.pug
 *.html
+
+# ==========
+# FILES
+# ==========
+assets/css
+assets/scss
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+
 
 # Logs
 logs

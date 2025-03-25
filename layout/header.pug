@@ -11,7 +11,8 @@ include ../config/config.pug
 	<meta name="theme-color" content="#000" media="(prefers-color-scheme: dark)">
 
 	// METATAGS
-	include ../layout/meta-tags.pug
+	if !localhost
+		include ../layout/meta-tags.pug
 
 	// FAVICONS
 
@@ -23,9 +24,15 @@ include ../config/config.pug
 	<title>#{site_title} – #{site_subtitle}</title>
 
 	// CSS
-	<link rel="stylesheet" href="#{site_url}/#{css_folder}/#{version_css}">
+	<link rel="stylesheet" href="#{site_url}/#{css_folder}#{version_css}">
+
+	// GTM
+	if !localhost
+		<script async src="https://www.googletagmanager.com/gtag/js?id=#{google_id_analytics}"></script>
+		<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '#{google_id_analytics}');</script>
 </head>
 <body class="js-body">
+include ../layout/menu.pug
 
 
 

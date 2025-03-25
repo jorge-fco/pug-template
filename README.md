@@ -5,7 +5,11 @@
 - Privacy
 - 404
 
-## Elements
+## Sections
+- Cover
+
+## Layout
 - Header
-- Components
+- Navigation
+- Menu
 - Footer
