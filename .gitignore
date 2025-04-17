@@ -17,6 +17,7 @@ prepros-6.config
 # FILES
 # ==========
 assets/css
+assets/dist
 assets/scss
 .sass-cache/
 *.css.map

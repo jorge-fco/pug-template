@@ -17,6 +17,6 @@
 
 ## Layout
 - Header
-- Navigation
-- Menu
+- Navigation (hover, active)
+- Menu (mobile)
 - Footer
