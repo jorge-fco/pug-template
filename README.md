@@ -15,6 +15,7 @@
 
 ## Features
 - Images
+- Scroll
 - WhatsApp
 - Google Maps
 - Form
