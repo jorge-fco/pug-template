@@ -24,9 +24,9 @@ assets/scss
 *.sass.map
 *.scss.map
 
-
-
-# Logs
+# ==========
+# LOGS
+# ==========
 logs
 *.log
 npm-debug.log*

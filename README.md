@@ -23,6 +23,8 @@
 ## Sections
 - Cover
 
+## Form
+
 ## Layout
 - Header
 - Navigation (hover, active)
